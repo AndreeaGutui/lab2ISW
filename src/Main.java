@@ -8,9 +8,11 @@ public class Main {
 
         List<Integer> list = new ArrayList<>();
         Random random = new Random();
-        /*for(int i = 0, i < 100, i++) {
-            list.add(random.nextInt(1000)); // Add random numbers between 0 and 999
-        }*/
+        for(int i = 0; i < 100; i++){
+            list.add(random.nextInt(1000));
+        }
+        System.out.println(list);
+
 
         Set<String> textSet = new HashSet<>();
         textSet.add("TEST1");
